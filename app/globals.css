@@ -32,6 +32,8 @@ body {
 }
 ::-webkit-scrollbar{
   display: none;
+  background: ;
+  background: rgb(211, 243, 222);
 }
 
 .contactUs-background-animate{

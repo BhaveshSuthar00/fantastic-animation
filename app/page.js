@@ -22,7 +22,7 @@ export default function Home() {
       <AppleCardsCarouselDemo />
       {/* <ParallexComponent /> */}
       {/* <StickyParallax /> */}
-      <AboutUs/>
+      <AboutUs />
       <InfiniteMovingCards
         items={[
           {
