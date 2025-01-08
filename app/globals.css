@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+  scroll-behavior: smooth;
+}
+
 :root {
   --background: #ffffff;
   --foreground: #171717;
@@ -14,8 +18,73 @@
   }
 }
 
+@media (prefers-color-scheme: light) {
+  :root {
+    --background: #ffffff;
+    --foreground: #171717;
+  }
+}
+
 body {
   color: var(--foreground);
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
+}
+::-webkit-scrollbar{
+  display: none;
+}
+
+.contactUs-background-animate{
+  background : linear-gradient(140deg, rgb(146, 221, 55), rgb(33, 92, 33), rgb(33, 102, 33));
+  background-size: 200% 200%;
+  animation : anime 4s ease infinite; 
+}
+
+
+@keyframes anime {
+  0%, 
+  100% { 
+    background-position: 0% 0%;
+  }
+  50% {
+    background-position : 100% 100%;
+  } 
+}
+
+@keyframes appear{
+  from{
+    opacity: 0;
+    scale : 0.5;  
+  }
+  to{
+    opacity: 1;
+    scale : 1;  
+  }
+}
+
+.card-appear{
+  animation  : appear ; 
+  animation-timeline : view(); 
+  /* aniamtion */
+}
+
+
+@layer utilities {
+  /* Hide scrollbar for Chrome, Safari and Opera */
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  /* Hide scrollbar for IE, Edge and Firefox */
+  .no-scrollbar {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  }
+  /* Show scrollbar */
+  .scrollbar::-webkit-scrollbar {
+    display: block;
+  }
+  .scrollbar {
+    -ms-overflow-style: auto;  /* IE and Edge */
+    scrollbar-width: auto;  /* Firefox */
+  }
 }
