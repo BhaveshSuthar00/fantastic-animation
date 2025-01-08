@@ -31,35 +31,35 @@ function HeroHome() {
         <div className="animate-marquee flex space-x-6">
           <div className="text-4xl flex items-center font-bold  text-black py-4 px-5">
           <AiFillGoogleCircle />
-          <p className="m-1">Google</p>
+          <p className="m-1">client_1</p>
           </div>
           <div className="text-4xl flex items-center font-bold  text-black py-4 px-5">
           <AiFillGithub />
-          <p className="m-1">Github</p>
+          <p className="m-1">client_2</p>
           </div>
           <div className="text-4xl flex items-center font-bold  text-black py-4 px-5">
           <AiFillRedditCircle />
-          <p className="m-1">Reddit</p>
+          <p className="m-1">client_3</p>
           </div>
           <div className="text-4xl flex items-center font-bold  text-black py-4 px-5">
           <AiFillFire />
-          <p className="m-1">Firebase</p>
+          <p className="m-1">client_4</p>
           </div>
           <div className="text-4xl flex items-center font-bold  text-black py-4 px-5">
           <AiFillGoogleCircle />
-          <p className="m-1">Google</p>
+          <p className="m-1">client_5</p>
           </div>
           <div className="text-4xl flex items-center font-bold  text-black py-4 px-5">
           <AiFillGithub />
-          <p className="m-1">Github</p>
+          <p className="m-1">client_6</p>
           </div>
           <div className="text-4xl flex items-center font-bold  text-black py-4 px-5">
           <AiFillRedditCircle />
-          <p className="m-1">Reddit</p>
+          <p className="m-1">client_7</p>
           </div>
           <div className="text-4xl flex items-center font-bold  text-black py-4 px-5">
           <AiFillFire />
-          <p className="m-1">Firebase</p>
+          <p className="m-1">client_8</p>
           </div>
         </div>
       </div>

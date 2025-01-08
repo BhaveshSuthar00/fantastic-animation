@@ -11,7 +11,7 @@ const ContactUs = () => {
     return (
       <>
         <AuroraBackground id="ContactUs" className={'py-1'}>
-          <div className="flex justify-between w-w85 m-auto items-center">
+          <div className="flex justify-between w-w85 m-auto items-center flex-wrap">
             <div>
               <form className="w-full max-w-lg" onSubmit={handleSubmit}>
               <div className="flex flex-wrap -mx-3 mb-6">
@@ -27,7 +27,6 @@ const ContactUs = () => {
                     className="block w-full bg-slate-100 border-none text-gray-500  rounded py-3 px-4 mb-3 leading-tight focus:outline-none"
                     id="grid-first-name"
                     type="text"
-                    placeholder="Jane"
                     />
                 </div>
                 <div className="w-full md:w-1/2 px-3">
@@ -41,7 +40,6 @@ const ContactUs = () => {
                     className="block w-full bg-slate-100 border-none text-gray-500  rounded py-3 px-4 mb-3 leading-tight focus:outline-none"
                     id="grid-last-name"
                   type="text"
-                  placeholder="Doe"
                   />
                 </div>
               </div>

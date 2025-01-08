@@ -26,26 +26,26 @@ export default function Home() {
       <InfiniteMovingCards
         items={[
           {
-            quote : "All that we see or seem is but a dream within a dream.", 
-            name : "Edgar Allan Poe", 
-            title : "A Dream Within a Dream", 
+            quote : "Testimonial 1", 
+            // name : "Edgar Allan Poe", 
+            // title : "A Dream Within a Dream", 
           },
           {
-            quote : "All that we see or seem is but a dream within a dream.", 
-            name : "Edgar Allan", 
-            title : "A Dream Within a Dream", 
+            quote : "Testimonial 2", 
+            // name : "Edgar Allan", 
+            // title : "A Dream Within a Dream", 
           },
           {
-            quote : "All that we see or seem is but a dream within a dream.", 
-            name : "Edgar Poe", 
-            title : "A Dream Within a Dream", 
+            quote : "Testimonial 3", 
+            // name : "Edgar Poe", 
+            // title : "A Dream Within a Dream", 
           },
         ]}
         direction={"left"}
         speed = {"fast"}
         pauseOnHover = {false}
       />
-      <ContactUs/>
+      <ContactUs />
     </>
   );
 }

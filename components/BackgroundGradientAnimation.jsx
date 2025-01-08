@@ -7,7 +7,7 @@ export function BackgroundGradientAnimationDemo() {
             <div className="absolute z-10 inset-0 flex items-center justify-center text-white font-bold px-4 pointer-events-none text-3xl text-center md:text-4xl lg:text-7xl">
                 <div className="bg-clip-text text-transparent drop-shadow-2xl bg-gradient-to-b from-white to-white/50">
                     <div>
-                        <p className="text-center text-7xl">About Us</p>
+                        <p className="text-center text-7xl mb-4">About Us</p>
                     </div>
                     <div className="text-center w-w85 m-auto text-2xl">
                         <p>
