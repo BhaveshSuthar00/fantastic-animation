@@ -25,7 +25,7 @@ function HeroHome() {
         className="h-4/5 text-black bg-cbg text-center justify-center flex items-center text-7xl font-extrabold"
         id="Home"
         >
-        Hero Page
+        Landing Page
         </div>
       <div className="relative h-1/5 w-full flex items-center justify-center overflow-hidden bg-white">
         <div className="animate-marquee flex space-x-6">
